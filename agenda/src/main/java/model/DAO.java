@@ -113,6 +113,19 @@ public class DAO {
 		}
 	}
 	
+	public void deletarContato(JavaBeans contato) throws Exception {
+		String delete = "delete from contatos where idcon = ?";
+		try {
+			Connection con = conectar();
+			PreparedStatement pst = con.prepareStatement(delete);
+			pst.setString(1, contato.getIdcon());
+			pst.executeUpdate();
+			con.close();
+		} catch (SQLException e) {
+			System.out.println(e);
+		}
+	}
+	
 	// teste de conexão
 	/*public void testeConexao() throws ClassNotFoundException {
 		try {
