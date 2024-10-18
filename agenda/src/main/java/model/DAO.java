@@ -16,7 +16,7 @@ public class DAO {
 	private String user = "root";
 	private String password = "Kamenriderv3";
 	
-	// Métodos de conexão
+	// Método de conexão
 	private Connection conectar() throws Exception {
 		Connection con = null;
 		
@@ -76,7 +76,7 @@ public class DAO {
 		}
 	}
 	
-	// selecionar contato
+	
 	public void selecionarContato(JavaBeans contato) throws Exception {
 		String read2 = "select * from contatos where idcon = ?";
 		try {
@@ -96,7 +96,7 @@ public class DAO {
 		}
 	}
 	
-	// editar o contato
+	
 	public void alterarContato(JavaBeans contato) throws Exception {
 		String update = "update contatos set nome=?, fone=?, email=? where idcon=?";
 		try {

@@ -17,6 +17,7 @@
 <body>
 	<h1>Agenda de Contatos</h1>
 	<a href="Novo.html" class="Botao1">Novo contato</a>
+	<a href="report" class="Botao2">Relatório</a>
 	<table id="tabela">
 		<thead>
 			<tr>
