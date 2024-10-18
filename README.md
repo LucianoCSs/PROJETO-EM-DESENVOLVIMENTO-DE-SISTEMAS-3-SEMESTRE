@@ -9,7 +9,7 @@ Tecnologias usadas neste projeto:
 
 ▪️ Java EE
 
-▪️ Sevlet
+▪️ Servlet
 
 ▪️ JSP (Java Server Pages)
 
