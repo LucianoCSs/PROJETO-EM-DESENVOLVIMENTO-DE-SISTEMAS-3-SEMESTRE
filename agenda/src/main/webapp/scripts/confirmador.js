@@ -1,6 +1,7 @@
 /**
  * Confirmação de exlusão de um contato
  * @author Luciano Costa dos Santos
+ * @param idcon
  */
 
 function confirmar(idcon){

@@ -125,17 +125,4 @@ public class DAO {
 			System.out.println(e);
 		}
 	}
-	
-	// teste de conexão
-	/*public void testeConexao() throws ClassNotFoundException {
-		try {
-			Connection connection = conectar();
-			System.out.println(connection);
-			connection.close();
-		} catch (SQLException e) {
-			System.out.println(e);
-		}
-	}*/
-	
-	
 }

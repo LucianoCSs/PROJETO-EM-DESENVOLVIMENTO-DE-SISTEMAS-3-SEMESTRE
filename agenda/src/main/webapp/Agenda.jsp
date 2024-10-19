@@ -3,6 +3,7 @@
 <%@ page import="model.JavaBeans" %>
 <%@ page import="java.util.ArrayList" %>
 <% 
+	@ SuppressWarnings("unchecked")
 	ArrayList<JavaBeans> lista = (ArrayList<JavaBeans>) request.getAttribute("contatos");
 %>
 

@@ -2,7 +2,6 @@ package controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfIsoConformanceException;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
@@ -69,11 +67,11 @@ public class Controller extends HttpServlet {
 				e.printStackTrace();
 			} 
 		} else if (action.equals("/report")) {
-				try {
-					gerarRelatorio(request, response);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}		
+			try {
+				gerarRelatorio(request, response);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}		
 		} else {
 			response.sendRedirect("index.html");
 		}
