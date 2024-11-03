@@ -12,9 +12,9 @@ public class DAO {
 	
 	// Parâmetros de conexão
 	private String driver = "com.mysql.cj.jdbc.Driver";
-	private String url = "jdbc:mysql://127.0.0.1:3306/agenda";
-	private String user = "root";
-	private String password = "Kamenriderv3";
+	private String url = "jdbc:mysql://192.168.15.2:3306/agenda";
+	private String user = "dba";
+	private String password = "Dba@123456";
 	
 	// Método de conexão
 	private Connection conectar() throws Exception {
