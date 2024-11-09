@@ -12,7 +12,7 @@ public class DAO {
 	
 	// Parâmetros de conexão
 	private String driver = "com.mysql.cj.jdbc.Driver";
-	private String url = "jdbc:mysql://192.168.15.2:3306/agenda";
+	private String url = "jdbc:mysql://ec2-54-157-49-98.compute-1.amazonaws.com:3306/agenda";
 	private String user = "dba";
 	private String password = "Dba@123456";
 	
