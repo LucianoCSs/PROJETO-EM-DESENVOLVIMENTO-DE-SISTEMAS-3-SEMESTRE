@@ -3,6 +3,8 @@ Projeto de Sistema WEB para o 3º Semestre do Curso de Ciências da Computação
 
 Tecnologias usadas neste projeto:
 
+▪️ AWS (Amazon Web Services)
+
 ▪️ Banco de dados MySQL
 
 ▪️ Servidor Tomcat
@@ -12,8 +14,6 @@ Tecnologias usadas neste projeto:
 ▪️ Servlet
 
 ▪️ JSP (Java Server Pages)
-
-▪️ IDE Eclipse
 
 ▪️ JDBC (Java Database Connectivity)
 
