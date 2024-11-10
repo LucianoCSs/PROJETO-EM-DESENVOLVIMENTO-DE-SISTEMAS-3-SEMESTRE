@@ -1,7 +1,6 @@
-# PROJETO-EM-DESENVOLVIMENTO-DE-SISTEMAS-3-SEMESTRE
+# AGENDA DE CONTATOS
 Projeto de Sistema WEB para o 3º Semestre do Curso de Ciências da Computação - UNINOVE VILA PRUDENTE
 
-AGENDA DE CONTATOS
 
 Tecnologias usadas neste projeto:
 
